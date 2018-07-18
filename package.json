@@ -1,0 +1,32 @@
+{
+  "name": "web-dev-junior-ninja",
+  "version": "1.0.0",
+  "description": "junior to ninja web dev",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theWhiteFox/web-dev-junior-ninja.git"
+  },
+  "keywords": [
+    "ninja"
+  ],
+  "author": "theWhiteFox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theWhiteFox/web-dev-junior-ninja/issues"
+  },
+  "homepage": "https://github.com/theWhiteFox/web-dev-junior-ninja#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1"
+  }
+}
